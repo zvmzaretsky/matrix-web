@@ -8,8 +8,23 @@
 </head>
 <body>
 <div id="wrapper">
-    <div>
-
+    <div id="d1">
+        <div id="d11">
+            <button id="btn0" onclick="next(0)">0</button>
+            <button id="btn1" onclick="next(1)">1</button>
+            <button id="btn2" onclick="next(2)">2</button>
+            <button id="btn3" onclick="next(3)">3</button>
+        </div>
+        <button id="btn_back" onclick="previous()">Back</button>
+        <p id="path">path</p>
+    </div>
+    <div id="d2">
+        <p id="matrix">no matrix</p>
+        <label>
+            <input id="input" type="number" min="1" max="99" placeholder="months forward">
+        </label>
+        <button id="btn_pred" onclick="getPrediction()">Prediction</button>
+        <p id="pred">no prediction</p>
     </div>
 </div>
 </body>

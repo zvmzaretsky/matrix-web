@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("bg.svg");
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#d1 {
+    display: grid;
+    grid-auto-rows: 40vh 10vh 50vh;
+    justify-items: center;
+}
+
+#d11 {
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1vh;
+    column-gap: 1vh;
+}
+
+#d11 > button {
+    width: 10vh;
+    height: 10vh;
+}
+
+#btn0, #btn1 {
+    align-self: end;
+}
+
+#btn2, #btn3 {
+    align-self: start;
+}
+
+#d2 {
+
+}
